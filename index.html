@@ -17,6 +17,8 @@
     </header>
 
     <main class="page-content">
+      <p class="visually-hidden" id="app-status" role="status" aria-live="polite"></p>
+
       <section class="intro" aria-labelledby="page-title">
         <p class="eyebrow">YOUR CAMPUS, YOUR COMMUNITY</p>
         <h1 id="page-title">Find your next<br><span>campus moment.</span></h1>
@@ -34,7 +36,7 @@
           <p class="events__count"><span aria-hidden="true">03</span> EVENTS</p>
         </div>
 
-        <div class="event-grid">
+        <div class="event-grid" id="event-list">
           <article class="event-card event-card--workshop">
             <div class="event-card__topline">
               <span class="category category--workshop">Workshop</span>

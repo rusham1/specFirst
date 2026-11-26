@@ -18,7 +18,7 @@
 
 **Purpose**: Establish the three-file static application shell.
 
-- [ ] T001 [P] Create the semantic page shell, shared status region, event-list container, and stylesheet/script references in `index.html`.
+- [X] T001 [P] Create the semantic page shell, shared status region, event-list container, and stylesheet/script references in `index.html`.
 - [ ] T002 [P] Add base typography, color tokens, focus visibility, and responsive page layout in `styles.css`.
 
 ## Phase 2: Foundational
